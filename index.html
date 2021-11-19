@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 001</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Consulta de CPF</h1>
+        </header>
+
+        <aside>
+            <p>Consulte o seu CPF agora!</p>
+        </aside>
+        <label>CPF:</label>
+        <input type="text" id="cpf" maxlength="14">
+        <br>
+        <input type="submit" id="botao" name="Enviar" onclick="Enviar()">
+    </main>
+
+    <script>
+        let cpf = document.querySelector('#cpf');
+        cpf.addEventListener("keyup", () => {
+            let value = cpf.value.replace(/[^0-9]/g, "").replace(/^([\d]{3})([\d]{3})?([\d]{3})?([\d]{2})?/, "$1.$2.$3-$4");
+            cpf.value = value;
+        });
+
+        function Enviar(){
+            alert('O seu CPF é: ' + cpf.value + '.');
+        }
+    </script>
+</body>
+</html>
