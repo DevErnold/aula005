@@ -28,7 +28,8 @@ main{
     width: 300px;
     height: 200px;
     margin: auto;
-    margin-top: 12%;
+    margin-top: 5%;
+    margin-bottom: 15px;
 }
 
 header{
@@ -64,13 +65,66 @@ label{
     box-shadow: 3px 3px rgba(55, 34, 80, 0.39);
 }
 
+.ativi{
+    background-color: rgb(233, 233, 233);
+    padding-top: 1px;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px rgba(55, 34, 80, 0.651);
+}
+
 #titulo{
-    background-color: white;
-    box-shadow: 3px 3px rgba(55, 34, 80, 0.39);
-    color: rgba(55, 34, 80, 0.808);
+    background-color: rgb(165, 104, 245);
+    box-shadow: 3px 3px rgba(55, 34, 80, 0.651);
+    color: white;
     border-radius: 10px;
     width: 300px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 30px;
     text-align: center;
+}
+
+.numero1{
+    display: flex;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 3px 3px rgba(55, 34, 80, 0.651);
+    color: rgb(86, 54, 128);
+}
+
+#multi{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.numero2{
+    display: flex;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 3px 3px rgba(55, 34, 80, 0.651);
+    color: rgb(86, 54, 128);
+}
+
+.botao{
+    background-color: rgb(165, 104, 245);
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 500;
+    color: white;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px rgba(55, 34, 80, 0.651);
+}
+
+.resultado{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 500;
 }

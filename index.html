@@ -34,12 +34,15 @@
         }
     </script>
 
-    <h1 id="titulo">Exercicio 02</h1>
+    <div class="ativi">
+        <h1 id="titulo">Multiplicador</h1>
 
-    <input type="number" name="numero1" id="numero1" class="numero1" value="0"> *
-    <input type="number" name="numero2" id="numero2" class="numero2" value="0">
-    <input type="submit" value="Multiplicar" onclick="multiplicar()">
-    <div class="resultado" id="resultado"></div>
+        <input type="number" name="numero1" id="numero1" class="numero1" value="0">
+        <p id="multi"></p>
+        <input type="number" name="numero2" id="numero2" class="numero2" value="0">
+        <input type="submit" class="botao" value="Multiplicar" onclick="multiplicar()">
+        <div class="resultado" id="resultado"></div>
+    </div>
 
     <script>
         function multiplicar(){
