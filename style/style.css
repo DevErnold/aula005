@@ -7,7 +7,7 @@
     font-family: "Rubik", sans-serif;
 }
 
-h1{
+header h1{
     background-color: white;
     box-shadow: 3px 3px rgba(55, 34, 80, 0.39);
     color: rgba(55, 34, 80, 0.808);
@@ -62,4 +62,15 @@ label{
     cursor: pointer;
     color: rgb(86, 54, 128);
     box-shadow: 3px 3px rgba(55, 34, 80, 0.39);
+}
+
+#titulo{
+    background-color: white;
+    box-shadow: 3px 3px rgba(55, 34, 80, 0.39);
+    color: rgba(55, 34, 80, 0.808);
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
 }
