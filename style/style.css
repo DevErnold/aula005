@@ -9,7 +9,7 @@
 
 h1{
     background-color: white;
-    box-shadow: 3px 3px rgb(86, 54, 128);
+    box-shadow: 3px 3px rgba(55, 34, 80, 0.39);
     color: rgb(86, 54, 128);
     border-radius: 10px;
 }
@@ -24,7 +24,7 @@ main{
     text-align: center;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 7px 7px rgb(55, 34, 80);
+    box-shadow: 5px 5px rgba(55, 34, 80, 0.651);
     width: 300px;
     height: 200px;
     margin: auto;
@@ -51,7 +51,7 @@ label{
     box-shadow: black;
     padding: 7px;
     cursor: text;
-    box-shadow: 3px 3px rgb(86, 54, 128);
+    box-shadow: 3px 3px rgba(55, 34, 80, 0.39);
 }
 
 #botao{
@@ -61,5 +61,5 @@ label{
     border-radius: 5px;
     cursor: pointer;
     color: rgb(86, 54, 128);
-    box-shadow: 3px 3px rgb(86, 54, 128);
+    box-shadow: 3px 3px rgba(55, 34, 80, 0.39);
 }
